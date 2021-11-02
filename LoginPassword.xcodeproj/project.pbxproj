@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		5B77443127313BB800A21B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B77443027313BB800A21B6E /* AppDelegate.swift */; };
-		5B77443327313BB800A21B6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B77443227313BB800A21B6E /* SceneDelegate.swift */; };
-		5B77443527313BB800A21B6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B77443427313BB800A21B6E /* ViewController.swift */; };
+		5B77443527313BB800A21B6E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B77443427313BB800A21B6E /* LoginViewController.swift */; };
 		5B77443827313BB800A21B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B77443627313BB800A21B6E /* Main.storyboard */; };
 		5B77443A27313BBC00A21B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B77443927313BBC00A21B6E /* Assets.xcassets */; };
 		5B77443D27313BBC00A21B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B77443B27313BBC00A21B6E /* LaunchScreen.storyboard */; };
+		5B7744472731481F00A21B6E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7744462731481F00A21B6E /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B77442D27313BB800A21B6E /* LoginPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B77443027313BB800A21B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B77443227313BB800A21B6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B77443427313BB800A21B6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B77443427313BB800A21B6E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5B77443727313BB800A21B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B77443927313BBC00A21B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B77443C27313BBC00A21B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B77443E27313BBC00A21B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7744462731481F00A21B6E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				5B77443027313BB800A21B6E /* AppDelegate.swift */,
-				5B77443227313BB800A21B6E /* SceneDelegate.swift */,
-				5B77443427313BB800A21B6E /* ViewController.swift */,
+				5B77443427313BB800A21B6E /* LoginViewController.swift */,
+				5B7744462731481F00A21B6E /* WelcomeViewController.swift */,
 				5B77443627313BB800A21B6E /* Main.storyboard */,
 				5B77443927313BBC00A21B6E /* Assets.xcassets */,
 				5B77443B27313BBC00A21B6E /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B77443527313BB800A21B6E /* ViewController.swift in Sources */,
+				5B7744472731481F00A21B6E /* WelcomeViewController.swift in Sources */,
+				5B77443527313BB800A21B6E /* LoginViewController.swift in Sources */,
 				5B77443127313BB800A21B6E /* AppDelegate.swift in Sources */,
-				5B77443327313BB800A21B6E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +305,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +332,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
